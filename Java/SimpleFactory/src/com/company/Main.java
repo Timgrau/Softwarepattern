@@ -13,5 +13,7 @@ public class Main {
         assert randomSchuh != null;
         System.out.println(randomSchuh.getModel());
 
+        String o = new String();
+        o.repla
     }
 }
