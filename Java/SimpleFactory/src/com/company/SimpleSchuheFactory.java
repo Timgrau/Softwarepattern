@@ -2,7 +2,7 @@ package com.company;
 
 public class SimpleSchuheFactory {
     
-    public static Schuhe getSchuh(String model){
+    public static ISchuhe getSchuh(String model){
         if ( model.contentEquals("Turnschuhe") ) {
             getResponse(model);
             return new Turnschuhe();

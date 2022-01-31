@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Schuhe wanderSchuh, turnSchuh, randomSchuh;
+        ISchuhe wanderSchuh, turnSchuh, randomSchuh;
 
 	    turnSchuh = SimpleSchuheFactory.getSchuh("Turnschuhe");
         wanderSchuh = SimpleSchuheFactory.getSchuh("Wanderschuhe");
@@ -12,8 +12,5 @@ public class Main {
 
         assert randomSchuh != null;
         System.out.println(randomSchuh.getModel());
-
-        String o = new String();
-        o.repla
     }
 }

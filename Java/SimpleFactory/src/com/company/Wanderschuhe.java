@@ -1,6 +1,6 @@
 package com.company;
 
-class Wanderschuhe implements Schuhe {
+class Wanderschuhe implements ISchuhe {
     String model = "Wanderschuhe";
 
     @Override

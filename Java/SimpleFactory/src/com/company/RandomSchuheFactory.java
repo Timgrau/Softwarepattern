@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class RandomSchuheFactory {
 
-    public static Schuhe getRandomSchuh() {
+    public static ISchuhe getRandomSchuh() {
         Integer random = new Random().nextInt(2);
 
         if ( random.equals(0) )

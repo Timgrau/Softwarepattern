@@ -1,6 +1,6 @@
 package com.company;
 
-class Turnschuhe implements Schuhe {
+class Turnschuhe implements ISchuhe {
     String model = "Turnschuhe";
 
     public String getModel() {
